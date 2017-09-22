@@ -1,0 +1,25 @@
+{
+  "name": "putt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "cannon": "^0.6.2",
+    "file-loader": "^0.11.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "source-map-loader": "^0.2.1",
+    "three": "^0.87.1",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/cannon": "^0.1.0",
+    "@types/node": "^8.0.29",
+    "@types/three": "^0.84.22",
+    "awesome-typescript-loader": "^3.2.3"
+  }
+}
