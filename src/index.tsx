@@ -3,11 +3,18 @@ require('file-loader?name=[name].[ext]!../static/index.html');
 import * as React from "react";
 import * as ReactDom from "react-dom";
 
-import { Hello } from "./components/Hello";
+import { StyletronProvider as StyletronProvider_ } from 'styletron-react';
+import styletron from './styletron';
+
+import { Game } from "./components";
 
 const root = document.getElementById("app");
 
+const StyletronProvider = StyletronProvider_ as any;
+
 ReactDom.render(
-  <Hello compiler="TypeScript" framework="React" />,
+  <StyletronProvider styletron={styletron}>
+    <Game />
+  </StyletronProvider>,
   root
 );

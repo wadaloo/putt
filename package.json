@@ -11,6 +11,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "source-map-loader": "^0.2.1",
+    "styletron": "^2.5.7",
+    "styletron-react": "^2.5.8",
     "three": "^0.87.1",
     "typescript": "^2.5.2",
     "webpack": "^3.6.0",
